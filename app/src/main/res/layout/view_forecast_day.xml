@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_bg_outline"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+    <TextView
+            android:id="@+id/dayLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/amiko"
+            android:text="Mon"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    <ImageView
+            android:id="@+id/weatherIcon"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_gravity="top"
+            android:src="@android:drawable/btn_star_big_off" />
+
+    <TextView
+            android:id="@+id/tempLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/amiko"
+            android:text="13C-17C"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+</LinearLayout>
